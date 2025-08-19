@@ -9,5 +9,5 @@ terraform {
       source  = "mongodb/mongodbatlas"
       version = "~> 1.21"
     }
-  # }
+  }
 }
