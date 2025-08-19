@@ -13,7 +13,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "2b4d76f9-fiap-postech-7soat-g31-f5-tf"
+    bucket = "2b4d76f9-fiap-postech-hacka-f5-tf"
     key    = "global/s3/mongodb.tfstate"
     region = "us-east-1"
   }
