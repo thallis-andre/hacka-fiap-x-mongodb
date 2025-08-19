@@ -8,13 +8,6 @@ terraform {
     mongodbatlas = {
       source  = "mongodb/mongodbatlas"
       version = "~> 1.21"
-
     }
-  }
-
-  backend "s3" {
-    bucket = "2b4d76f9-fiap-postech-hacka-f5-tf"
-    key    = "global/s3/mongodb.tfstate"
-    region = "us-east-1"
-  }
+  # }
 }
